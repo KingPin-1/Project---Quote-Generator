@@ -42,6 +42,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
 }
+<<<<<<< HEAD
 .author {
     font-size: 1.7rem;
     font-weight: bolder;
@@ -61,3 +62,19 @@ body {
     background-color: lightblue;
 }
   
+=======
+.author{
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: red;
+  margin-top: 20px;
+}
+.btn-area button{
+  color: white;
+  background-color: darkslategrey;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+>>>>>>> 2f9cf9743413c156397bd92b4f2999fbb94f3d5d
