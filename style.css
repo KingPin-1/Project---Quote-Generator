@@ -5,15 +5,23 @@
     font-family: "Lato", "sans-serif";
 }
 body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; */
+    background: url(img1.jpg) no-repeat center center/ cover;
+    /* background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.parent {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    background: url(img1.jpg) no-repeat center center/ cover;
-    /* background-image: url('img1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; */
+    /* background: url(img1.jpg) no-repeat center center/ cover; */
 }
 .container {
     width: 600px;
@@ -31,6 +39,7 @@ body {
     border-radius: 10px;
 }
 .main-content {
+    position: relative;
     width: 100%;
     background-color: rgb(215, 217, 221);
     height: 300px;
@@ -42,7 +51,6 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
 }
-<<<<<<< HEAD
 .author {
     font-size: 1.7rem;
     font-weight: bolder;
@@ -51,6 +59,9 @@ body {
     margin-top: 20px;
 }
 .btn-area button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
     color: white;
     background-color: darkslategrey;
     font-size: 1.4rem;
@@ -61,20 +72,8 @@ body {
 .btn-area button:active {
     background-color: lightblue;
 }
-  
-=======
-.author{
-  font-size: 1.7rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: red;
-  margin-top: 20px;
+footer {
+    text-align: center;
+    color: white;
+    /* background-color: black; */
 }
-.btn-area button{
-  color: white;
-  background-color: darkslategrey;
-  font-size: 1.4rem;
-  padding: 10px 15px;
-  margin-top: 20px;
-}
->>>>>>> 2f9cf9743413c156397bd92b4f2999fbb94f3d5d
